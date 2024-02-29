@@ -1,0 +1,13 @@
+{
+	"powers": [
+        "originsgoblins:genasi/night_vision",
+		"originsgoblins:genasi/magical_heritage"
+
+
+	],
+	"icon": "minecraft:fire_charge",
+	"order": 2,
+	"impact": 1,
+  	"name":"Genasi",
+ 	"description":"Genasi carry the powers of a genie."
+}

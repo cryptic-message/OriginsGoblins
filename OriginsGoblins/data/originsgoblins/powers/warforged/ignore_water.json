@@ -1,0 +1,29 @@
+{
+    "type": "origins:ignore_water",
+    "condition": {
+        "type": "origins:or",
+    "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+              "type": "origins:armor_value",
+              "comparison": ">=",
+              "compare_to": 5
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "legs",
+          "item_condition": {
+              "type": "origins:armor_value",
+              "comparison": ">=",
+              "compare_to": 3
+          }
+        }
+      ]
+    },
+    "name": "Heavy",
+    "description": "Your metallic body causes it so that wearing heavy (iron or above) chestplates and leggings cause you to sink in water."
+    
+}

@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"originsgoblins:bugbear/tall",
+        "originsgoblins:bugbear/bigger_build",
+        "originsgoblins:bugbear/appetite",
+		"originsgoblins:bugbear/night_vision",
+		"originsgoblins:bugbear/sneaky_beaky",
+		"originsgoblins:bugbear/sneak_attack"
+
+	],
+	"icon": "minecraft:brown_dye",
+	"order": 2,
+	"impact": 1,
+  "name":"Bugbear",
+ 	"description":"Bugbears are bugbears."
+}

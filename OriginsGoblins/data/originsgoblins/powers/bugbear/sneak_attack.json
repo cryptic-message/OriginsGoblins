@@ -1,0 +1,29 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 6,
+        "source": {
+            "name": "sneak attack",
+            "unblockable": true,
+			"bypasses_armor": true
+        }
+    },
+    "cooldown": 20,
+    "hud_render":{
+        "should_render": true,
+        "bar_index": 5
+    },
+    "condition": {
+        "type": "origins:invisible"
+    },
+	
+    "target_condition": {
+        "type": "origins:relative_health",
+        "comparison": ">=",
+        "compare_to": 0.98 
+    },
+
+    "name": "Sneak Attack",
+    "description": "Attacking a full health target while invisible deals additional damage."
+}

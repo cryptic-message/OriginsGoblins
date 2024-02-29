@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Extra exhaustion from large appetite",
+    "operation": "multiply_base",
+      "value": 1.2
+  },
+  "name": "Fast Metabolism",
+  "description": "You burn through food quicker then most."
+}

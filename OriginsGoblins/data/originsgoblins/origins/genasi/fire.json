@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"originsgoblins:genasi/fire/fire_res",
+        "originsgoblins:genasi/fire/model_color"
+
+	],
+	"icon": "minecraft:campfire",
+	"order": 2,
+	"impact": 1,
+    "name":"Fire Genasi",
+ 	"description":"Fire Genasis carry the powers of a fire genie."
+}

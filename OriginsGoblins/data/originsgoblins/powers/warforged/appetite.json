@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Less exhaustion from roboticness",
+    "operation": "multiply_base",
+      "value": 0.5
+  },
+  "name": "Slow Metabolism",
+  "description": "Your mechanical body uses fuel slower than other creatures."
+}

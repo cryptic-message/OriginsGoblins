@@ -1,0 +1,12 @@
+{
+	"powers": [
+        "originsgoblins:genasi/air/move_speed",
+        "originsgoblins:genasi/air/model_color"
+
+	],
+	"icon": "minecraft:feather",
+	"order": 2,
+	"impact": 1,
+    "name":"Air Genasi",
+ 	"description":"Air Genasis carry the powers of an air genie."
+}

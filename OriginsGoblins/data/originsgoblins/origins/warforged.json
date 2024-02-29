@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"originsgoblins:warforged/ignore_water",
+        "originsgoblins:warforged/tall",
+        "originsgoblins:warforged/wide_frame",
+        "originsgoblins:warforged/appetite",
+        "originsgoblins:warforged/half_food",
+        "originsgoblins:warforged/yummy_metals",
+		"originsgoblins:warforged/adaptive_tools"
+		
+	],
+	"icon": "minecraft:piston",
+	"order": 2,
+	"impact": 3,
+  "name":"Warforged",
+ 	"description":"Warforged are mechanoids."
+}

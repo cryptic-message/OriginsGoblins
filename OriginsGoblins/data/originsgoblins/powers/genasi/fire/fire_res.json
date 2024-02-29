@@ -1,0 +1,15 @@
+{
+    "name": "Fire Resistance",
+    "description": "Damage from fiery sources is halved.",
+    
+    "type": "origins:modify_damage_taken",
+    "condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:is_fire"
+    },
+    "modifier": {
+        "name": "resists fire",
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}

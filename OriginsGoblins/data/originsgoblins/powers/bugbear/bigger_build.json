@@ -1,0 +1,26 @@
+{
+	"type": "origins:attribute",
+	"modifiers": [
+	  {
+		"name": "Max attack speed decrease",
+		"attribute": "minecraft:generic.attack_speed",
+		"value": -0.025,
+		"operation": "addition"
+	  },
+	  {
+		"name": "Entity reach increase",
+		"attribute": "forge:entity_reach",
+		"value": 1.0,
+		"operation": "addition"
+	  },
+	  {
+		"name": "Block reach increase",
+		"attribute": "forge:block_reach",
+		"value": 1.0,
+		"operation": "addition"
+	  }
+  ],
+	
+"name": "Long Limbs",
+"description": "Your long limbs have higher reach, but you attack slower."
+}

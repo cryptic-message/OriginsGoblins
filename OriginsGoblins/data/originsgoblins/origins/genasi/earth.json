@@ -1,0 +1,12 @@
+{
+	"powers": [
+        "originsgoblins:genasi/earth/slowing_attacks",
+        "originsgoblins:genasi/earth/model_color"
+
+	],
+	"icon": "minecraft:flint",
+	"order": 2,
+	"impact": 1,
+    "name":"Earth Genasi",
+ 	"description":"Earth Genasis carry the powers of an earth genie."
+}

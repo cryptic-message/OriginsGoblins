@@ -1,0 +1,11 @@
+{
+    "name": "Faster Running",
+    "description": "Your air-like body lets you run faster.",
+    
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "modifier": {
+        "operation": "addition",
+        "value": 0.05
+    }
+}

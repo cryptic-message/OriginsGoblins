@@ -1,0 +1,56 @@
+{
+    "type": "origins:action_on_item_use",
+    "name": "Yummy Gold",
+    "description": "You gain much benefit from eating golden apples and carrots.",
+    "item_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:ingredient",
+            "ingredient":{
+                "tag": "originsgoblins:edible_by_warforged"
+            }
+        },
+        "if_action": {
+            "type": "origins:consume",
+            "amount": 1
+        }
+    },
+    "entity_action":{
+        "type": "origins:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:using_item",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_apple"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:feed",
+                    "food": 20,
+                    "saturation": 20
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:using_item",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_carrot"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:feed",
+                    "food": 10,
+                    "saturation": 16
+                }
+            }
+        ]
+
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "origins:invisibility",
+  "render_armor": true,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking"
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "head",
+        "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": "<=",
+            "compare_to": 1
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": "<=",
+            "compare_to": 3
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "legs",
+        "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": "<=",
+            "compare_to": 2
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "feet",
+        "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": "<=",
+            "compare_to": 2
+        }
+      }
+    ]
+  },
+  "name": "Sneaky Beaky",
+  "description": "Somehow you are capable of blending in with the environment...while wearing leather armor."
+}

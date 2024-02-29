@@ -1,0 +1,6 @@
+{
+  "type": "origins:night_vision",
+  "strength": 1.0,
+  "name": "Darkvision",
+  "description": "Your magical eyes can see in the dark."
+}

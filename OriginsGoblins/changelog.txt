@@ -1,0 +1,5 @@
+v1.0: added bugbear
+v1.1: tweaked bugbear
+v1.2.0: added warforged
+v1.2.1: added adaptive tools to warforged
+v1.3.0: added genasi

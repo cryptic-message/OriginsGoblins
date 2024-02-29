@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:food"
+    },
+    "food_modifier": {
+        "name": "Decreased food points",
+        "operation": "multiply_base",
+        "value": -0.5
+    },
+    "name": "Organic Indigestion",
+    "description": "Your mechanical body does not recieve as much benefit from organic food."
+  }

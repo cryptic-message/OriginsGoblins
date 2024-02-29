@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"originsgoblins:goblin/smaller_build",
+		"originsgoblins:goblin/night_vision",
+		"originsgoblins:goblin/climbing",
+		"originsgoblins:goblin/appitite",
+		"originsgoblins:goblin/short",
+		"originsgoblins:goblin/jump",
+		"originsgoblins:goblin/falling"
+	],
+	"icon": "minecraft:green_dye",
+	"order": 2,
+	"impact": 2,
+  "name":"Goblin",
+ 	"description":"Goblins are goblins."
+}

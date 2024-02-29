@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "origins": [
+    "originsgoblins:goblin",
+    "originsgoblins:bugbear",
+    "originsgoblins:warforged",
+    "originsgoblins:genasi/base"
+
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+	  "minecraft:gold_carrot",
+	  "minecraft:golden_apple",
+    ]
+}

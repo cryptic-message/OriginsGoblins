@@ -1,0 +1,30 @@
+{
+    "name": "Sub-Origin",
+    "gui_title": {
+        "choose_origin": "Choose a Sub-Origin",
+        "view_origin": "Your Sub Origin"
+    },
+    "missing_name": "Sub Origins",
+    "missing_description": "Select your Sub origin!",
+    "enabled": true,
+    "allow_random": true,
+    "order": 3,
+
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "originsgoblins:genasi/base",
+                "layer": "origins:origin"
+            },
+            "origins": [
+                "originsgoblins:genasi/air",
+                "originsgoblins:genasi/earth",
+                "originsgoblins:genasi/fire",
+                "originsgoblins:genasi/water"
+            ]
+        }
+
+    ]
+
+}

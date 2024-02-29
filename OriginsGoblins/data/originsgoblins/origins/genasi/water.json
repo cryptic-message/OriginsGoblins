@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"originsgoblins:genasi/water/faster_swimming",
+        "originsgoblins:genasi/water/model_color"
+
+
+	],
+	"icon": "minecraft:axolotl_bucket",
+	"order": 2,
+	"impact": 1,
+    "name":"Water Genasi",
+ 	"description":"Fire Genasis carry the powers of a water genie."
+}

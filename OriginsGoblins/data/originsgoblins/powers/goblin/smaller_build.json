@@ -1,0 +1,26 @@
+{
+	"type": "origins:attribute",
+	"modifiers": [
+	  {
+		"name": "Max attack speed increase",
+		"attribute": "minecraft:generic.attack_speed",
+		"value": 0.025,
+		"operation": "addition"
+	  },
+	  {
+		"name": "Max speed increase",
+		"attribute": "minecraft:generic.movement_speed",
+		"value": 0.025,
+		"operation": "addition"
+	},
+	{
+	"name": "Max health decrease",
+	"attribute": "minecraft:generic.max_health",
+	"value": -4,
+	"operation": "addition"
+  }
+  ],
+	
+"name": "Quick Build",
+"description": "Your small makes you a little fast, but also means you can't take as many hits."
+}
